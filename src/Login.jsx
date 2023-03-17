@@ -4,7 +4,7 @@ export const Login = () => {
     <div class="container">
       <div class="grid-part logo-part">
         <div class="logo-card">
-        <div class="logo"></div>
+          <div class="logo"></div>
       </div>
     <div class="footer">
         {/* <h3>Leave Management</h3> */}

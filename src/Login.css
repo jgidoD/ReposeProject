@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     height: 100svh;
+
 }
 
 .container::before{
@@ -30,21 +31,35 @@
 .logo-part{
     margin: 0;
     padding: 0;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    display: grid;
-    grid-row: 1;
-    color: #fff;
-}
-
-.logo-card{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    display: grid;
+    grid-row: 1;
+    color: #fff;
 
 }
+
+.logo-card{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+    padding: 0;
+    background: url('./assets/login-logo.svg');    
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45rem;
+}
+
+/* .logo-card::before{
+    content:url('./assets/logo.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+
+} */
+
 
 .container::after{
     content: '';
