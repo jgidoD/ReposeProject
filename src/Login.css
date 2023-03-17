@@ -1,0 +1,118 @@
+
+.container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #0064B2;
+    height: 100svh;
+    width: 55%;
+    z-index: -1;
+    transform: skew(15deg);
+    transform-origin: bottom left;
+}
+
+
+.grid-part{
+    width: 100svh;
+}
+
+
+.logo-part{
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-row: 1;
+    color: #fff;
+}
+
+.logo-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: #7FDBFF;
+    height: 100%;
+    width: 45%;
+    opacity: .15;
+    z-index: -1;
+    transform: skew(-40deg);
+}
+
+.logo-part #account-text{
+    font-weight: 500;
+    font-size: 120px;
+}
+
+.footer{
+    margin: 0;
+}
+
+footer h3{
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.logo-part .logo{
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.login-form{
+    text-align: center;
+}
+.login-form form input{
+    margin: 8px;
+    padding: 3px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: rgb(190, 190, 190) 2px solid;
+    height: 2rem;
+    width: 20rem;
+}
+
+.login-form h1{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0;
+}
+
+.login-form button{
+    font-size: 15px;
+    background-color: #0064B2;
+    color: #fff;
+    margin: 10px;
+    width: 21rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    transition: 300ms;
+    
+}
+
+.login-form button:hover{
+    scale: 103%;
+}
+
