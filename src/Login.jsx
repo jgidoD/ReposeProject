@@ -7,7 +7,6 @@ export const Login = () => {
           <div class="logo"></div>
       </div>
     <div class="footer">
-        {/* <h3>Leave Management</h3> */}
     </div>
       </div>
       

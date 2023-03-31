@@ -2,7 +2,7 @@ export const Admin = () => {
     return (
         <div class="container-admin">
         <div class="grid-part logo-part">
-          <div class="logo-card">
+          <div class="logo-card-admin">
           <div class="logo"></div>
         </div>
       <div class="footer">

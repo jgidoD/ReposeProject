@@ -17,7 +17,7 @@
     background: #7FDBFF;
     height: 100svh;
     width: 55%;
-    opacity: .15;
+    opacity: .4;
     z-index: -1;
     transform: skew(15deg);
     transform-origin: bottom left;
@@ -32,6 +32,26 @@
     height: 100%;
     width: 45%;
     opacity: 1;
-    z-index: -1;
+    z-index: -2;
     transform: skew(-40deg);
+}
+
+#admin-text{
+    font-size: 30pt;
+    font-weight: 700;
+    color:  #0064B2;
+    letter-spacing: 1px;
+}
+
+.logo-card-admin{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+    padding: 0;
+    background: url('./assets/admin-logo.svg');    
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35rem;
+    height: 35rem;
 }

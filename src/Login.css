@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     height: 100svh;
-
 }
 
 .container::before{
@@ -37,7 +36,11 @@
     display: grid;
     grid-row: 1;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+ 
 }
 
 .logo-card{
@@ -46,11 +49,14 @@
     justify-content: center; */
     margin: 0;
     padding: 0;
-    background: url('./assets/login-logo.svg');    
+    background: url('./assets/logo.svg');    
     background-repeat: no-repeat;
     background-size: contain;
-    width: 45rem;
+    width: 40rem;
+    height: 40rem;
 }
+
+
 
 /* .logo-card::before{
     content:url('./assets/logo.svg');
@@ -88,16 +94,15 @@ footer h3{
 }
 
 .logo-part .logo{
-    height: 20rem;
-    width: 20rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+    height: 35rem;
+    width: 50rem;
+    margin: 20px;
 }
 
 .login-form{
     text-align: center;
 }
+
 .login-form form input{
     margin: 8px;
     padding: 3px;
@@ -106,6 +111,17 @@ footer h3{
     border: rgb(190, 190, 190) 2px solid;
     height: 2rem;
     width: 20rem;
+}
+
+  
+.login-form form input:focus{
+   outline: #d5d5d5 2px solid;
+   transition: 500ms;
+}
+
+.login-form form input:focus::placeholder{
+    color: transparent;
+    transition: 300ms;
 }
 
 .login-form h1{
@@ -124,7 +140,7 @@ footer h3{
     border-radius: 10px;
     border: none;
     transition: 300ms;
-    
+    cursor: pointer;
 }
 
 .login-form button:hover{
